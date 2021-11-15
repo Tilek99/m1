@@ -2,26 +2,41 @@
 body {
     font-family: 'Roboto', sans-serif; 
 }
+section {
+    width: 100%;
+}
+.container {
+    margin: 90px 122px;
+    
+}
 .logo {
     margin-top: 21px;
     margin-left: 121px;
-    margin-bottom: 100px;
+}
+.center-text {
+    width: 50%;
+}
+.tiny-pics {
+    width: 60%;
 }
 .tiny-pics, .center-content {
     display: flex;
+    margin: 0;
+    justify-content: space-between;
 }
 .tiny-pics-items {
     display: inline-flex;
     align-items: baseline;
-    justify-content: space-between;
 }
 .watch-movie p {
     font-size: 20px;
+    line-height: 150%;
 }
 h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 80px;
     font-weight: 700;
+    margin-bottom: 60px;
 }
 .center-pic {
     position: relative;
@@ -37,7 +52,7 @@ h1 {
     height: 200px;
     background-color: #1E4681;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: auto;
     box-sizing: border-box;
 }
 .quote p:first-child {
